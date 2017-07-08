@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>招聘者主页</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/HR_home.css">
+	<link rel="stylesheet" type="text/css" href="../css/shared.css">
+	<script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="../js/bootstrap.js"></script>
+</head>
+<body>
+	<header class="container">
+		<div class="navbar navbar-default">
+			<div class="navbar-header">
+				<a href="home.html" class="navbar-brand">
+					<img src="../image/logo.png"/>
+				</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="HR_home.html">首页</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">退出登录</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="container">
+		<div class="tabbable tabs-left">
+			<ul class="nav nav-pills">
+				<li class="active"><a href="#resume-list" data-toggle="tab">已收到简历</a></li>
+				<li><a href="#job-list" data-toggle="tab">已发布职位</a></li>
+				<li><a href="#seeker-list" data-toggle="tab">标记求职者</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="resume-list">
+					<table class="table">
+						<tr>
+							<th><a href="#">求职者ID</a></th>
+							<th>应聘职位</th>
+							<th>发送时间</th>
+						</tr>
+						<tr>
+							<td><a href="#">XXX</a></td>
+							<td>XXXXXX</td>
+							<td>XX-XX-XX</td>
+						</tr>
+					</table>
+				</div>
+				<div class="tab-pane fade" id="job-list">
+					<button class="btn btn-default pull-right">发布新职位</button>
+					<div class="tab-pane active" id="resume-list">
+						<table class="table">
+							<tr>
+								<th>职位</th>
+								<th>发布时间</th>
+								<th>截止时间</th>
+							</tr>
+							<tr>
+								<td><a href="#">XXX</a></td>
+								<td>XX-XX-XX</td>
+								<td>XX-XX-XX</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="seeker-list">
+					<div class="tab-pane active" id="resume-list">
+						<table class="table">
+							<tr>
+								<th>求职者ID</th>
+								<th>姓名</th>
+								<th>联系方式</th>
+								<th>操作</th>
+							</tr>
+							<tr>
+								<td><a href="#">XXX</a></td>
+								<td>XXXX</td>
+								<td>XXXX</td>
+								<td><a href="#">删除</a></td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container">
+		<div class="navbar navbar-default">
+			<div class="text-center">
+				team:xxx xxx xxx
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
