@@ -1,0 +1,18 @@
+.header .navbar{
+	height: 100px;
+}
+
+.header .navbar-nav{
+	margin-top: 40px;
+}
+
+.header .navbar-right{
+	margin-right: 40px;
+}
+
+.footer .navbar{
+	height: 200px;
+}
+
+.footer .navbar .text-center{
+	margin-top: 10px;

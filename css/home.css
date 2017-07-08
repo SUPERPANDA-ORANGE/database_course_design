@@ -1,0 +1,24 @@
+.container .notice{
+	padding: 20px;
+	background-color: #EEE;
+}
+
+.carousel{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.job{
+	margin: 5px;
+	padding:5px;
+	height: 100px;
+	background-color: #EEE;
+}
+
+.nav > li:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu>li{
+	margin:5px;
+}

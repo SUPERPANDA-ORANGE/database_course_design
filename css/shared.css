@@ -1,0 +1,23 @@
+header{
+	font-size: 20px;
+}
+
+header .navbar-nav{
+	margin-top: 40px;
+}
+
+header .navbar-right{
+	margin-right: 40px;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+footer .navbar{
+	height: 50px;
+}
+
+footer .navbar .text-center{
+	margin-top: 10px;
+}
