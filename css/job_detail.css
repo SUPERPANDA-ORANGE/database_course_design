@@ -16,3 +16,21 @@
 
 .footer .navbar .text-center{
 	margin-top: 10px;
+}
+
+.list-inline > li {
+	cursor: pointer;
+}
+
+.button{
+	position: absolute;
+	right: 80px;
+	bottom: 60px;
+}
+
+.images{
+	position: relative;
+	float: right;
+	right: 300px;
+	bottom: 300px;
+}

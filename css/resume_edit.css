@@ -1,0 +1,17 @@
+#temp input{
+    width:300px;
+}
+
+.aee{
+    height: 200px;
+    width: 600px !important;
+    vertical-align:left; 
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    cursor: pointer;
+}
