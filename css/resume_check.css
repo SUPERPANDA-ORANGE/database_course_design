@@ -1,0 +1,36 @@
+#temp input{
+    width:300px;
+}
+
+.aee{
+    height: 200px;
+    width: 600px !important;
+    vertical-align:left; 
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    cursor: pointer;
+}
+
+div #temp .navbar .navbar-default{ 
+    padding-left: 20px!important;
+}
+
+header{
+	font-size: 20px;
+}
+
+header .navbar-nav{
+	margin-top: 40px;
+}
+
+header .navbar-right{
+	margin-right: 40px;
+}
+p{
+    display: inline-block;
+}
