@@ -15,3 +15,19 @@ h1{
 ul{
     cursor: pointer;
 }
+
+div #temp .navbar .navbar-default{ 
+    padding-left: 20px!important;
+}
+
+header{
+	font-size: 20px;
+}
+
+header .navbar-nav{
+	margin-top: 40px;
+}
+
+header .navbar-right{
+	margin-right: 40px;
+}
